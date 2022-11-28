@@ -1,5 +1,5 @@
 # preventing secret.py or downloaded works from getting uploaded.
-*.py
+secret.py
 *.epub
 *.pdf
 
