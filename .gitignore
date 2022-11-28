@@ -1,7 +1,14 @@
+# preventing secret.py or downloaded works from getting uploaded.
+*.py
+*.epub
+*.pdf
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
 
 # C extensions
 *.so
