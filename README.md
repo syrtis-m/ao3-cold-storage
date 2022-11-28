@@ -2,7 +2,7 @@
 a jupyter notebook to mass-download your ao3 bookmarks. 
 
 ## details
-this is a work in progress - things may be broken. updates are posted on cohost under the tag `#syrtis_def`
+this is a work in progress - things may be broken. updates are posted on cohost under the tag `#syrtis_dev`
 downloads are formatted as if you had downloaded them from ao3 manually.
 downloads are currently formatted as .epub files
 
