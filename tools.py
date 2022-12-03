@@ -93,7 +93,7 @@ class Downloader:
     # single thread
     def load_bookmarks_thread(self, page=1):
         #from AO3.common import get_work_from_banner
-        _soup_bookmarks = self.user.request(f"https://archiveofourown.org/users/{self.user.username}/bookmarks?page={page}") #TODO FIX ERROR HERE
+        _soup_bookmarks = self.user.request(f"https://archiveofourown.org/users/{self.user.username}/bookmarks?page={page}") #TODO ERROR HERE
                 
         ol = _soup_bookmarks.find("ol", {"class": "bookmark index group"})
 
